@@ -1,0 +1,8 @@
+Here is one way you might structure a React web application that allows users to 
+explore a large dataset of financial transactions:
+
+-  Create a component to display the data. This component should be responsible for rendering the data in an appropriate format, such as a table or a chart. The component should also provide any necessary controls for interacting with the data, such as sorting or filtering options.
+
+-  Create a component to manage the data loading process. This component should use a generator function to load the data in small chunks as needed, and should store the data in a local state or Redux store. The component should also provide any necessary controls for navigating the data, such as pagination or scroll-based loading.
+
+- Create a root component to manage the overall application state and structure. This component should use the data display and data loading components to render the data and manage the data loading process. The root component should also provide any necessary routing or navigation functionality, such as linking to different pages or views within the application.
